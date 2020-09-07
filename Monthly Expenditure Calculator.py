@@ -24,10 +24,3 @@ while True:
       break
    except ValueError:
       print('Invalid Entry')
-
-top = Tk()
-top.geometry("200x100")
-b = Button(top,text = "Simple")
-b.pack()
-
-
